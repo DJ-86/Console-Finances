@@ -2,7 +2,7 @@
 
 ## Overview
 
-This activity presents a real-world situation in which to test my  newfound JavaScript skills. I am tasked with creating code for analyzing the financial records of a company. Below is an example of a correct log.
+This activity presents a real-world situation in which to test my  newfound JavaScript skills. I am tasked with creating code for analyzing the financial records of a company.
 
 ![output](/readme-images/console-output.jpg)
 

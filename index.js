@@ -113,13 +113,14 @@ for (i = 1; i < finances.length; i++) {
 // calculate the diffrence and store it in a variable if it > || < it's original value
     let sum = finances[i][1] - finances[j][1]
     if (sum < greatestLoss) {
+        loss += sum
         greatestLoss = sum;
         negativeDate = finances[i];
         
     } else if (sum > greatestProfit) {
         greatestProfit = sum;
         positiveDate = finances[i];
-        
+        profit += sum;
     }
     
 }

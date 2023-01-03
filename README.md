@@ -12,7 +12,7 @@ This activity presents a real-world situation in which to test my  newfound Java
 * [Javascript basics ][https://www.w3schools.com/tags/att_img_alt.asp](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Screenshot
-![code](/readme-images/code.jpg)
+![code](/readme-images/code.JPG)
 ![output](/readme-images/console-output.jpg)
 
 ## License

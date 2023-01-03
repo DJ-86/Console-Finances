@@ -8,10 +8,11 @@ This activity presents a real-world situation in which to test my  newfound Java
 * [Repo](https://github.com/DJ-86/Console-Finances)
 
 ## Resources:
-* [For loops]([https://www.w3schools.com/html/html5_semantic_elements.asp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-* [Javascript basics ]([https://www.w3schools.com/tags/att_img_alt.asp](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [For loops][https://www.w3schools.com/html/html5_semantic_elements.asp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+* [Javascript basics ][https://www.w3schools.com/tags/att_img_alt.asp](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Screenshot
+![code](/readme-images/code.jpg)
 ![output](/readme-images/console-output.jpg)
 
 ## License

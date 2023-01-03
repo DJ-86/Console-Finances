@@ -113,8 +113,7 @@ for (i = 1; i < finances.length; i++) {
     if (sum < greatestLoss) {
         loss += sum
         greatestLoss = sum;
-        negativeDate = finances[i];
-        
+        negativeDate = finances[i]; 
     } else if (sum > greatestProfit) {
         greatestProfit = sum;
         positiveDate = finances[i];

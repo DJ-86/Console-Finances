@@ -87,7 +87,6 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-
 //variables
 let totalMonths = finances.length;
 let total = 0;
@@ -99,7 +98,6 @@ let averageChange;
 let positiveDate = '';
 let negativeDate = '';
 
-
 // Profit/loss
 for (let i = 0; i < finances.length; i++) {
     total += finances[i][1]  
@@ -107,10 +105,10 @@ for (let i = 0; i < finances.length; i++) {
 
 // Track profit loss and return an average
 for (i = 1; i < finances.length; i++) {
-// Setting j to -1 targets the first item in the array
+// Setting j to -1 targets the index behind the one in the loop
     let j = i -1;
 
-// calculate the diffrence and store it in a variable if it > || < it's original value
+// calculate the difference and store it in a variable if it > or < it's original value
     let sum = finances[i][1] - finances[j][1]
     if (sum < greatestLoss) {
         loss += sum
@@ -125,10 +123,13 @@ for (i = 1; i < finances.length; i++) {
     
 }
 
-// Average change 
-averageChange = (profit + loss) / finances.length;
+// Average change
+averageChange = (loss + profit) / finances.length;
+let averageTotal = averageChange.toFixed(2);
 
 // assigning values to the best and worst performing months
 positiveDate[1] = greatestProfit;
 negativeDate[1] = greatestLoss;
-console.log('Total Months: ' + totalMonths + '\n' + 'Total: $' + total+ '\n' + 'Average Change: $' +averageChange + '\n' + 'Greatest Increase in Profits: ' + positiveDate + '\n' + 'Greatest Decrease in Profits: ' + negativeDate);
+
+// logs the financial analysis to the browsers console tab//
+console.log('Financial Analysis' + '\n' + '----------------------------' + '\n' +'Total Months: ' + totalMonths + '\n' + 'Total: $' + total+ '\n' + 'Average Change: $' +averageTotal + '\n' + 'Greatest Increase in Profits: ' + positiveDate[0] + ' $' + positiveDate[1]  + '\n' + 'Greatest Decrease in Profits: ' + negativeDate[0] + ' $' + negativeDate[1]);
